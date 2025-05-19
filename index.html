@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Игорь | Дизайнер</title>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Manrope', sans-serif;
+      background: linear-gradient(135deg, #0f101f, #1c1d3a);
+      color: #fff;
+    }
+    nav {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: #aab4ff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+    h1, h2 {
+      color: #a6b0ff;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.07);
+      border-radius: 12px;
+      padding: 15px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+    }
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 24px;
+      background: #667eea;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      font-size: 14px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">Обо мне</a>
+    <a href="#portfolio">Портфолио</a>
+    <a href="#contact">Контакты</a>
+  </nav>
+
+  <section class="container" id="about">
+    <h1>Привет, я Игорь 👋</h1>
+    <p style="margin-top: 10px; font-size: 18px; line-height: 1.6;">
+      Делаю инфографику и не только. Занимаюсь оформлением карточек товаров, визуалом для Telegram, участвовал в конкурсе брендбуков и занял 1 место. Работаю в Figma и Photoshop, на связи почти всегда. Хочу расти, делать крутой визуал и быть частью сильной команды.
+    </p>
+    <a href="https://t.me/Sxp21" class="button">Написать в Telegram</a>
+  </section>
+
+  <section class="container" id="portfolio">
+    <h2>Портфолио</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200.png?text=Работа+1" alt="Работа 1">
+        <p>Карточка товара для маркетплейса</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200.png?text=Работа+2" alt="Работа 2">
+        <p>Оформление визуала для Telegram</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200.png?text=Работа+3" alt="Работа 3">
+        <p>Фрагмент брендбука (1 место на конкурсе)</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container" id="contact">
+    <h2>Контакты и краткое резюме</h2>
+    <p style="margin-top: 10px; line-height: 1.6;">
+      Молодой дизайнер с упором на инфографику, работаю в Figma и Photoshop. Имею опыт оформления карточек товаров и Telegram-контента. Уверенно чувствую композицию, цвет и подачу. Самоучка, обучался через практику. Готов к полной занятости и открыт к новым проектам. 
+      <br><br>
+      <strong>Telegram:</strong> <a href="https://t.me/Sxp21" style="color:#aab4ff;">@Sxp21</a>
+    </p>
+  </section>
+
+  <footer>
+    &copy; 2025 Игорь С. Дизайн и код сделаны с душой 💙
+  </footer>
+</body>
+</html>
